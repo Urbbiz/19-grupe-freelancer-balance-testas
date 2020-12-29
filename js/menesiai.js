@@ -1,5 +1,6 @@
 import {data} from './data.js';
 import {lentelesEilutes} from './lentelesEilutes.js';
+import {lentelesFooter} from './lentelesFooter.js';
 
 
 const menesiai = [
@@ -16,3 +17,7 @@ const menesiai = [
     'Lapkritis',
     'Gruodis'
 ];
+
+
+lentelesEilutes ('.table-contnt',data, menesiai);
+lentelesFooter ('.table-footer', data);
